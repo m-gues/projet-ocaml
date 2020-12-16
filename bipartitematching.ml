@@ -69,7 +69,7 @@ let bmfile_to_bmgraph path =
   close_in infile ;
   final_graph
   
-(* Bipartite match the given graph, returns a graph without the null arc for lisibility*)
+(* Bipartite match the given graph, returns a graph without the null arcs for lisibility*)
 let bipartite_matching gr =
   let remove_null_arcs gr1 =
     let aux acu id1 id2 label = match label with
