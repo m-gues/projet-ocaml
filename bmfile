@@ -1,0 +1,23 @@
+%% File for bipartite matching
+%% Let's say we use this to match book club attendees with books to read
+
+%% Here are the books and their id
+
+b 21 Lou_Archer
+b 22 Faerie_Wars 
+b 23 Kasane 
+b 24 Cagaster
+b 25 A_Study_In_Scarlet 
+b 26 Case_Closed 
+b 27 Les_Miserables 
+b 28 The_Wizard_Of_Oz 
+
+%% And here are the attendees and the books they would like to read at some point
+
+a 11 Noe : 28,21,22 The_Wizard_Of_Oz,Lou_Archer,Faerie_Wars 
+a 12 Dominique : 23,25 Kasane,A_Study_In_Scarlet 
+a 13 Lucas : 22,27,26 Faerie_Wars,Les_Miserables,Case_Closed 
+a 14 Jeanne : 24,25,23 Cagaster,A_Study_In_Scarlet,Kasane
+a 15 Roland : 24,21,28 Cagaster,Lou_Archer,The_Wizard_Of_Oz
+a 16 Olivier : 27,23,26 Les_Miserables,Kasane,Case_Closed 
+
